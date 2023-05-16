@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+#logo{
+    display: flex;
+    align-items: center;
+    color: red;
+    margin: 0 14px;
+    font-size: 24px;
+    margin-right: 31px;
+    margin-left: 20px;
+}
+#logo img{
+    height: 51px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: black;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    margin: 5px 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    font-size: 20px;
+    color: white;
+}
+#navbar li a:hover{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#introSection {
+    height: 730px;
+    background-color: red;
+    color: white;
+    /* background: center / contain no-repeat url("/static/bg1.jpg"); */
+    background: center / cover no-repeat url("/static/bg1.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 45px;
+}
+.small{
+    font-size: 25px;
+}
+#sponsorSection {
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+#sponsorSection h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+#missionSection{
+    height: 300px;
+    background-color: white;
+    /* margin-bottom: 24px; */
+    width: 83%;
+    margin: auto;
+    display: block;
+}
+#missionSection h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+#footer{
+    height: 59px;
+    background-color: #04330a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.card{
+    border: 2px solid black;
+    width: 26%;
+    border-radius: 10px;
+    margin: 21px 39px;
+    height: 166px;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+.card h3{
+    text-align: center;
+    margin: 15px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+    margin: 7px 9px;
+}
+.card-img img{
+    height:inherit;
+}
+.card-content{
+    padding: 0 4px;
+}
+.card-content p{
+    font-size: 18px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImages{
+    /* border: 2px solid white; */
+    margin: 60px;
+    height: inherit;
+}

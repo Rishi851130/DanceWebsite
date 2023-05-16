@@ -1,0 +1,21 @@
+{
+  "name": "paro-dance-academy",
+  "version": "1.0.0",
+  "description": "This is a website of paro-dance-academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nothing"
+  ],
+  "author": "Rishi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "nodemon": "^2.0.22",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+    section#introSection 
+        div Welcome to Rishi Dance Academy
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionSection  
+        h1 Our Mission 
+        div.card 
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                  img(src="/static/coup img2.jpg", alt="Loading..")
+
+                div.card-content  
+                  p This is the best dance academy of this universe
+        div.card 
+            h3 Dance The Way you like
+            div.card-box
+                div.card-img
+                  img(src="/static/img3.jpg", alt="Loading..")
+
+                div.card-content  
+                  p This is the best dance academy of this universe
+        div.card 
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                  img(src="/static/img4.jpg", alt="Loading..")
+
+                div.card-content  
+                  p This is the best dance academy of this universe
+
+    section#sponsorSection 
+        h1 Our Sponsors 
+        div#sponsors
+            img(src="/static/microsoft logo.jpg", alt="Loading...", class="spImages")
+            img(src="/static/hp logo2.jpeg", alt="Loading...", class="spImages")
+            img(src="/static/skype logo.jpeg", alt="Loading...", class="spImages")
+            img(src="/static/apple logo.webp", alt="Loading...", class="spImages")
