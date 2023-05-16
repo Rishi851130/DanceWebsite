@@ -1,0 +1,18 @@
+touch .gitignore
+git config --global user.name Rishi
+git config --global user.email ritu851130@gmail.com
+git init
+git add .
+git commit -m "Initial Commit"
+git status
+ssh-keygen -t rsa -b 4096 -C "ritu851130@gmail.com"
+(copy the public key saved address) = t
+cat t(paste it)
+(copy the key generated and past it in the github new ssh key created)
+git push origin master
+yes
+(after any change)
+git status
+git add .
+git commit -m "Added cheatsheet"
+git push origin master
